@@ -53,7 +53,7 @@ document.querySelector(".check").addEventListener("click", function () {
         document.querySelector(".check").style.backgroundColor = "#eee";
         document.querySelector(".score").textContent = 0;
       } else {
-        displayMessage(guess < number ? "📉 too lower" : "📈 too High");
+        displayMessage(guess < number ? "📉 too low" : "📈 too High");
         score--;
         document.querySelector(".score").textContent = score;
       }
