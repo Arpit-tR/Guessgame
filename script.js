@@ -1,7 +1,6 @@
 "use strict";
 
 let number = Math.trunc(Math.random() * 20) + 1;
-console.log(number);
 
 const displayMessage = function (message) {
   document.querySelector(".message").textContent = message;
