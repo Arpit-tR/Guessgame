@@ -30,6 +30,7 @@ document.querySelector(".check").addEventListener("click", function () {
       document.querySelector(".number").textContent = number;
       document.querySelector(".number").style.borderColor = "#000";
       document.querySelector(".number").style.color = "#000";
+      document.querySelector(".number").style.borderRadius = "30px";
       document.querySelector(".check").style.backgroundColor = "#eee";
       document.querySelector(".check").style.cursor = "default";
       document.querySelector(".check").textContent = "🎉";
@@ -74,6 +75,7 @@ document.querySelector(".again").addEventListener("click", function () {
   document.querySelector(".number").style.borderColor = "";
   document.querySelector(".number").style.width = "20rem";
   document.querySelector(".number").style.fontSize = "7rem";
+  document.querySelector(".number").style.borderRadius = "";
   document.querySelector(".check").style.backgroundColor = "";
   document.querySelector(".check").style.cursor = "pointer";
   document.querySelector(".check").textContent = "Check!";

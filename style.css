@@ -60,6 +60,7 @@ h1 {
 
 .number {
   background: #eee;
+  border-radius: 25px;
   color: #333;
   border: 8px solid #eee;
   font-size: 7rem;
@@ -81,7 +82,7 @@ h1 {
 }
 
 .again {
-  border-radius: 10px;
+  border-radius: 25px;
   position: absolute;
   top: 2rem;
   left: 2rem;
@@ -97,8 +98,9 @@ h1 {
   width: 25rem;
   text-align: center;
   display: block;
+  border-radius: 25px;
   margin-bottom: 3rem;
-  border-radius: 10px;
+  
 }
 
 .btn {
@@ -109,7 +111,7 @@ h1 {
   font-family: inherit;
   padding: 2rem 3rem;
   cursor: pointer;
-  border-radius: 10px;
+  border-radius: 25px;
 }
 
 .btn:hover {
@@ -126,5 +128,5 @@ h1 {
 
 .label-score {
   margin-bottom: 2rem;
-  border-radius: 10px;
+  border-radius: 25px;
 }
